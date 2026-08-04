@@ -1,368 +1,58 @@
-\# TripleTen Data Science Portfolio
+# Data Projects — TripleTen
 
+This repository contains data science and machine learning projects completed as part of the TripleTen Data Science / AI Engineering program.
 
+The projects demonstrate skills in Python, SQL, pandas, NumPy, scikit-learn, LightGBM, CatBoost, TensorFlow/Keras, exploratory data analysis, feature engineering, model evaluation, NLP, time series forecasting, regression, classification, and business-focused data analysis.
 
-A collection of applied data science and machine learning projects completed through the TripleTen Data Science / AI program.
+## Table of Contents
 
+1. [Customer Churn Prediction](./customer_churn_prediction)
+2. [Movie Review Sentiment Classification](./movie_review_sentiment_classification)
+3. [Used Car Price Prediction](./used_car_price_prediction)
+4. [Gold Recovery Prediction](./gold_recovery_prediction)
+5. [Taxi Demand Forecasting](./taxi_demand_forecasting)
 
+## Projects Overview
 
-This portfolio demonstrates practical experience with data cleaning, exploratory data analysis, feature engineering, supervised machine learning, model evaluation, natural language processing, time series forecasting, and business-focused data science problem solving.
+### 1. Customer Churn Prediction
 
+Built a machine learning model to predict telecom customer churn and help identify customers at risk of leaving. The final CatBoost model achieved a test AUC-ROC of 0.9731 and accuracy of 0.9307.
 
+### 2. Movie Review Sentiment Classification
 
-\## Portfolio Overview
+Built an NLP model to classify movie reviews as positive or negative using text preprocessing, vectorization, and classification models evaluated with F1 score.
 
+### 3. Used Car Price Prediction
 
+Built regression models to estimate used car prices for a vehicle marketplace while comparing prediction quality, training time, and prediction speed.
 
-This repository contains multiple end-to-end data science projects covering classification, regression, NLP, time series forecasting, and industrial process modeling.
+### 4. Gold Recovery Prediction
 
+Built regression models to predict gold recovery rates in an industrial mining process using custom evaluation metrics and process-stage analysis.
 
+### 5. Taxi Demand Forecasting
 
-Each project includes a notebook and project-specific analysis focused on solving a realistic business problem with data.
+Built a time series forecasting model to predict hourly taxi demand using lag features, rolling means, and time-series-aware validation.
 
+## Tools and Technologies
 
+- Python
+- SQL
+- pandas
+- NumPy
+- scikit-learn
+- LightGBM
+- CatBoost
+- TensorFlow / Keras
+- Matplotlib
+- Jupyter Notebook
+- Machine Learning
+- NLP
+- Time Series Forecasting
+- Regression
+- Classification
+- Model Evaluation
 
-\## Featured Projects
+## Notes
 
-
-
-\### 1. Customer Churn Prediction
-
-
-
-Built a machine learning model to predict whether telecom customers are likely to leave the company.
-
-
-
-\*\*Business goal:\*\* Help a telecom company identify customers at risk of churn so retention efforts can be targeted more effectively.
-
-
-
-\*\*Skills demonstrated:\*\*
-
-
-
-\* Data cleaning
-
-\* Feature engineering
-
-\* Classification modeling
-
-\* CatBoost
-
-\* LightGBM
-
-\* Model evaluation
-
-\* AUC-ROC
-
-\* Business interpretation
-
-
-
-\*\*Project folder:\*\* `customer\_churn\_prediction`
-
-
-
-\---
-
-
-
-\### 2. Taxi Demand Forecasting
-
-
-
-Built a time series forecasting model to predict hourly taxi demand.
-
-
-
-\*\*Business goal:\*\* Help a taxi company forecast demand so more drivers can be available during peak hours.
-
-
-
-\*\*Skills demonstrated:\*\*
-
-
-
-\* Time series analysis
-
-\* Lag features
-
-\* Rolling averages
-
-\* Train/test splitting by time
-
-\* Regression modeling
-
-\* RMSE evaluation
-
-\* Forecasting workflow
-
-
-
-\*\*Project folder:\*\* `taxi\_demand\_forecasting`
-
-
-
-\---
-
-
-
-\### 3. Movie Review Sentiment Classification
-
-
-
-Built a natural language processing model to classify movie reviews as positive or negative.
-
-
-
-\*\*Business goal:\*\* Automatically analyze text reviews and classify customer sentiment.
-
-
-
-\*\*Skills demonstrated:\*\*
-
-
-
-\* Text preprocessing
-
-\* NLP
-
-\* Tokenization / vectorization
-
-\* Classification modeling
-
-\* Model evaluation
-
-\* F1 score
-
-\* Text-based machine learning
-
-
-
-\*\*Project folder:\*\* `movie\_review\_sentiment\_classification`
-
-
-
-\---
-
-
-
-\### 4. Used Car Price Prediction
-
-
-
-Built regression models to predict used car prices based on vehicle characteristics.
-
-
-
-\*\*Business goal:\*\* Help estimate fair used car prices while comparing model quality, training speed, and prediction speed.
-
-
-
-\*\*Skills demonstrated:\*\*
-
-
-
-\* Regression modeling
-
-\* Feature engineering
-
-\* Categorical encoding
-
-\* LightGBM
-
-\* CatBoost
-
-\* Model comparison
-
-\* RMSE evaluation
-
-\* Business-focused model selection
-
-
-
-\*\*Project folder:\*\* `used\_car\_price\_prediction`
-
-
-
-\---
-
-
-
-\### 5. Gold Recovery Prediction
-
-
-
-Built a machine learning model to predict gold recovery from industrial processing data.
-
-
-
-\*\*Business goal:\*\* Help improve production efficiency by predicting gold recovery outcomes from processing-stage features.
-
-
-
-\*\*Skills demonstrated:\*\*
-
-
-
-\* Industrial data analysis
-
-\* Data preprocessing
-
-\* Regression modeling
-
-\* Custom evaluation metric
-
-\* sMAPE
-
-\* Model tuning
-
-\* Business interpretation
-
-
-
-\*\*Project folder:\*\* `gold\_recovery\_prediction`
-
-
-
-\## Technical Skills Demonstrated
-
-
-
-\* Python
-
-\* pandas
-
-\* NumPy
-
-\* SciPy
-
-\* scikit-learn
-
-\* CatBoost
-
-\* LightGBM
-
-\* TensorFlow / Keras
-
-\* Jupyter Notebook
-
-\* Data cleaning
-
-\* Exploratory data analysis
-
-\* Feature engineering
-
-\* Classification
-
-\* Regression
-
-\* NLP
-
-\* Time series forecasting
-
-\* Model evaluation
-
-\* Business analysis
-
-
-
-\## Repository Structure
-
-
-
-```text
-
-Data\_projects\_TripleTen/
-
-│
-
-├── customer\_churn\_prediction/
-
-│   ├── README.md
-
-│   └── customer\_churn\_prediction.ipynb
-
-│
-
-├── movie\_review\_sentiment\_classification/
-
-│   ├── README.md
-
-│   └── movie\_review\_sentiment\_classification.ipynb
-
-│
-
-├── used\_car\_price\_prediction/
-
-│   ├── README.md
-
-│   └── used\_car\_price\_prediction.ipynb
-
-│
-
-├── gold\_recovery\_prediction/
-
-│   ├── README.md
-
-│   └── gold\_recovery\_prediction.ipynb
-
-│
-
-├── taxi\_demand\_forecasting/
-
-│   ├── README.md
-
-│   └── taxi\_demand\_forecasting.ipynb
-
-│
-
-└── README.md
-
-```
-
-
-
-\## Why This Portfolio Matters
-
-
-
-This portfolio shows the ability to take a business problem, analyze the data, prepare features, train models, evaluate performance, and explain results in a practical way.
-
-
-
-The projects cover several core areas required for entry-level data science, machine learning, and AI roles:
-
-
-
-\* Business problem framing
-
-\* Data preparation
-
-\* Model development
-
-\* Model evaluation
-
-\* Results communication
-
-\* GitHub documentation
-
-
-
-\## Author
-
-
-
-Kwame Asa-Awuku
-
-Data Science \& AI Engineering Student
-
-
-
-GitHub: https://github.com/asaawukukwame-alt
-
-LinkedIn: https://www.linkedin.com/in/kwame-asa-awuku-164a5737b
-
-
-
+These projects were completed as part of the TripleTen Data Science / AI Engineering program. Some datasets may not be included due to course or licensing restrictions.
